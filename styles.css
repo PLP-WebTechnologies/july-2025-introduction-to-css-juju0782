@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #00264d; /* Box model: border */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Sections */
+section {
+  background: white;
+  margin: 20px;         /* Box model: margin */
+  padding: 15px;        /* Box model: padding */
+  border: 2px solid #ccc; /* Box model: border */
+  border-radius: 8px;
+}
+
+section h2 {
+  color: #004080;
+  margin-top: 0;
+}
+
+/* List Styling */
+.rooms ul {
+  list-style: square inside;
+  padding-left: 0;
+}
+
+/* Links */
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
